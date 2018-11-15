@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="Privacy Policy" lan="" version="1.0" date="2015-08-02" compatibility="2.0" installRequired="true" >
+	<author name="CaMer0n" url="http://e107.org" />
+	<summary lan="">A simple privacy policy for your e107 website.</summary>
+	<description lan="">Generates a very simple privacy policy for your website.</description>
+	<keywords>
+		<word>privacy</word>
+		<word>legal</word>
+	</keywords>
+	<category>content</category>
+	<copyright></copyright>
+	<adminLinks>
+		<link url="admin_config.php" description="" icon="" iconSmall="" primary="true" >LAN_CONFIGURE</link>
+	</adminLinks>
+    <siteLinks>
+        <link name="" url="{e_PLUGIN}privacypolicy/privacypolicy.php?mode=pp" sef="index" lan="">Privacy Policy</link>
+        <link name="" url="{e_PLUGIN}privacypolicy/privacypolicy.php?mode=tos" sef="tos" lan="">Terms of Service</link>
+    </siteLinks>
+	<pluginPrefs>
+		<pref name='company'>My Company</pref>
+		<pref name='modified'></pref>
+		<pref name='contactus'>/contact.php</pref>
+	</pluginPrefs>
+</e107Plugin>
